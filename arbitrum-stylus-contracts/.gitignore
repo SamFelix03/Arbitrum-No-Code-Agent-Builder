@@ -1,0 +1,19 @@
+# Environment variables
+.env
+*.key
+key.txt
+
+# Build artifacts
+target/
+**/target/
+
+# Deployment outputs
+deploy-output.log
+*.wasm
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+

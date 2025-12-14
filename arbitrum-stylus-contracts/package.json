@@ -1,0 +1,25 @@
+{
+  "name": "arbitrum-stylus-contracts-tests",
+  "version": "1.0.0",
+  "description": "Test scripts for Arbitrum Stylus contracts",
+  "type": "module",
+  "scripts": {
+    "test:airdrop": "node airdrop/test.js",
+    "test:dao": "node dao/test.js",
+    "test:dao-factory": "node dao-factory/test.js",
+    "test:erc20-token": "node erc20-token/test.js",
+    "test:token-factory": "node token-factory/test.js",
+    "test:erc721-nft": "node erc721-nft/test.js",
+    "test:nft-factory": "node nft-factory/test.js",
+    "test:yield-calculator": "node yield-calculator/test.js",
+    "test:all": "npm run test:airdrop && npm run test:dao && npm run test:dao-factory && npm run test:erc20-token && npm run test:token-factory && npm run test:erc721-nft && npm run test:nft-factory && npm run test:yield-calculator"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
