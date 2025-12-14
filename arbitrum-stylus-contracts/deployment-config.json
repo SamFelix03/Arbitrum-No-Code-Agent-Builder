@@ -1,0 +1,185 @@
+{
+  "network": {
+    "name": "Arbitrum Sepolia",
+    "chainId": 421614,
+    "rpcEndpoint": "https://sepolia-rollup.arbitrum.io/rpc"
+  },
+  "contracts": {
+    "airdrop": {
+      "name": "Airdrop",
+      "address": "0x6239a115e23a11033930c1892eb6b67649c12f18",
+      "deploymentTx": "0x368dfa0d9db89ea8c1425fa833bcbdfd6f21c4ec5e4ca7d9803ee4036b1564f7",
+      "activationTx": "0x154523fc804412a20b808b914dc52db936dd9c24c04a4a98521a3d57db869bc5",
+      "cacheBidTx": "0xb5a2b7ce017f66f0cfd94f1307c7cb87d40b19aa2fb2773f18698f37f2378e44",
+      "initTx": "0x7f3a848353361db1cb2b97d1f28af0fa78561dbe40ce73bc5553ecddf02113cf",
+      "projectMetadataHash": "351f0a858d420bcbafe0f6300f675613766696a2b11d8ed231dd4b205e6f1c2f",
+      "contractSize": "12.4 KiB (12718 bytes)",
+      "wasmSize": "38.4 KiB (39304 bytes)",
+      "wasmDataFee": "0.000090 ETH (originally 0.000075 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": false,
+        "initialized": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/airdrop",
+      "deploymentDate": "2024-12-19",
+      "notes": "Updated Airdrop contract with #[payable] attributes on airdrop() and airdropWithAmounts() functions. Contract is cached in ArbOS for cheaper calls."
+    },
+    "dao": {
+      "name": "DAO",
+      "address": "0x95d7bc3f2f8172298c2487dfeca23d86b09572f5",
+      "deploymentTx": "0xb4f6163df0d06733dc3c37c61daf3936bacda5f570ffb216a9ffbb95c6802263",
+      "activationTx": "0xc44c8b297871fb2312d2248dc67a9def55779dc7da5895c3df11e97ad703691d",
+      "cacheBidTx": "0xc21d421d6e82540ea798ac5a737762ca88fbf94ec328ce2ff8832a1fef896474",
+      "initTx": "0x207f4bca7a886c58407861a162507cf566f632e342d45f11cfa7dbff6434ec12",
+      "projectMetadataHash": "090b3b525c697c7d3f39b39abc7b39b2c15bac18ccf3eba8f04bb204a15e21fe",
+      "contractSize": "19.7 KiB (20177 bytes)",
+      "wasmSize": "70.9 KiB (72610 bytes)",
+      "wasmDataFee": "0.000120 ETH (originally 0.000100 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true,
+        "initialized": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/dao",
+      "deploymentDate": "2024-12-19",
+      "notes": "DAO contract successfully deployed, activated, cached, and verified. Contract is cached in ArbOS for cheaper calls."
+    },
+    "dao-factory": {
+      "name": "DAO Factory",
+      "address": "0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46",
+      "deploymentTx": "0xbb65988bc3dc7c368c919eb334c41487cc22c5bf1f57b547769326d5f848f8d1",
+      "activationTx": "0x19de2fc90e9acc134383f74eb6a6c5f6aefdecba37362bbcdaf71159620874b7",
+      "cacheBidTx": "0x4e9da518cf523558764b6205e9248e50c35b253dc493ded3ec8320ac98d2d923",
+      "projectMetadataHash": "bb2093a2c9a87bc85f20d497efe96ce15f09bc9a5d3ec8c8407e65047fd18109",
+      "contractSize": "12.7 KiB (13054 bytes)",
+      "wasmSize": "39.4 KiB (40346 bytes)",
+      "wasmDataFee": "0.000092 ETH (originally 0.000077 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/dao-factory",
+      "deploymentDate": "2024-12-19",
+      "notes": "DAO Factory contract successfully deployed, activated, cached, and verified. Contract is cached in ArbOS for cheaper calls."
+    },
+    "erc20-token": {
+      "name": "ERC-20 Token",
+      "address": "0x473200e631dc83fdf6a8c48eb9e44414a90cec50",
+      "deploymentTx": "0xe14f2f5e0c537a6249aa0cedd5df094f4628dfc32e31a2de1356fcd716b5880c",
+      "activationTx": "0xc8438e151f7bf8cf3f25808c57a8e77508b7053cd65159aa0d7af3a472343977",
+      "cacheBidTx": "0x969d2f5f59f54fb886894f1516508c30b3b7471d9addbfc36c9b790f7525e022",
+      "initTx": "0x6a88ef40b36a61c8ff7ebea6a60e9e3099c9aceefd681f5b3d3e0a39d5251e2c",
+      "projectMetadataHash": "b53680c8ee7989a27e2da8ec867027122f29f5a04d0ae52021ad0a9bd9a21f8b",
+      "contractSize": "22.3 KiB (22860 bytes)",
+      "wasmSize": "77.2 KiB (79002 bytes)",
+      "wasmDataFee": "0.000126 ETH (originally 0.000105 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true,
+        "initialized": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/erc20-token",
+      "deploymentDate": "2024-12-19",
+      "notes": "ERC-20 Token contract successfully deployed, activated, cached, and verified. Contract is cached in ArbOS for cheaper calls."
+    },
+    "token-factory": {
+      "name": "Token Factory",
+      "address": "0xed088fd93517b0d0c3a3e4d2e2c419fb58570556",
+      "deploymentTx": "0x36ab65bbecefd99318032cb01495a7bf5d8bc0e12f625c24c988ba2d4bc8e8db",
+      "activationTx": "0x2fecfa0bcc15cc5e1a316741a5e1e30b9573b7e3296b98b6d18d3b835f26ccc2",
+      "cacheBidTx": "0x5a62df8e781968764ef0d7d60c740e80ad1dfe0be37a2982c096d0514f580c29",
+      "projectMetadataHash": "1131c7fc5eee04c0375ef0fde14411a1ddd7b4ce6f45421701276d260be79fab",
+      "contractSize": "17.5 KiB (17900 bytes)",
+      "wasmSize": "56.1 KiB (57460 bytes)",
+      "wasmDataFee": "0.000112 ETH (originally 0.000093 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/token-factory",
+      "deploymentDate": "2024-12-19",
+      "notes": "Token Factory contract successfully deployed, activated, cached, and verified. Contract is cached in ArbOS for cheaper calls."
+    },
+    "erc721-nft": {
+      "name": "ERC-721 NFT",
+      "address": "0x74e3bace8102f7d2bb5741ac301e6b062d5224b9",
+      "deploymentTx": "0xabbeb078d90015bd9c9ce957d85b107e3a341617e0dcf7889be7aa1b63c69719",
+      "activationTx": "0x16a0cb1011467f1880c3932c401d7d3941e767b6a1680bafc2cb7776e0f6fff4",
+      "cacheBidTx": "0xbc95a4b15ea0bdc0271fa4445230c670ca1ee51fd3c51f8266223b856243dfe1",
+      "projectMetadataHash": "23499be5f0137b03ccd311af72c4861a85fbad4fb1657f38e2c2f4e8cdaa2e30",
+      "contractSize": "22.3 KiB (22882 bytes)",
+      "wasmSize": "82.5 KiB (84478 bytes)",
+      "wasmDataFee": "0.000134 ETH (originally 0.000111 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/erc721-nft",
+      "deploymentDate": "2024-12-19",
+      "notes": "ERC-721 NFT contract successfully deployed, activated, cached, and verified. Contract is cached in ArbOS for cheaper calls."
+    },
+    "nft-factory": {
+      "name": "NFT Factory",
+      "address": "0xbeaf33e277499dbb7982061d261c6c286494855e",
+      "deploymentTx": "0x89cbabae72c0d8d4ecaa1d1331011a950e647ad85ddadd26dbf0ce6bd4fa6edb",
+      "activationTx": "0x7baee052b43e04c5abf31566534b6aa917febc808d6f5617d6db63bd0bf258f1",
+      "cacheBidTx": "0x3b4081852dde47c4a1b24e79bbf8255580473c2af041e3837e9e41e305b23b8f",
+      "projectMetadataHash": "82cdbe2b352f6cfba24e03b7be0da57de620c0253b06a878664c1054b9fcfd46",
+      "contractSize": "17.4 KiB (17860 bytes)",
+      "wasmSize": "60.7 KiB (62173 bytes)",
+      "wasmDataFee": "0.000112 ETH (originally 0.000093 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/nft-factory",
+      "deploymentDate": "2024-12-19",
+      "notes": "NFT Factory contract successfully deployed, activated, cached, and verified. Uses registry pattern to track deployed NFT collections. Contract is cached in ArbOS for cheaper calls."
+    },
+    "yield-calculator": {
+      "name": "Yield Calculator",
+      "address": "0x70f749501b44ea186550dfca4e9f87a5d120bb4d",
+      "deploymentTx": "0x00253963b1cfecbbd346fd2fc570232b2cd277e30783c1f651564598c86e7004",
+      "activationTx": "0x2c350d96e2190efaa586e8a442fd910341f5c9ab346778f8719e0b8bf21a20c2",
+      "cacheBidTx": "0xe6ec5ae2959789f22b0ff1beeb1dc151dc01cdd0cb01ac44e94128c644f89826",
+      "initTx": "0x2d2d1d66fe2959c2b31117afbe984b5b4dba773f0857b41e1f8df28b998c455f",
+      "projectMetadataHash": "c4bb42ab678c1492fbf8d6bed929d5b0e02d0aafbd2fcb0efe6c469798e783d6",
+      "contractSize": "19.3 KiB (19735 bytes)",
+      "wasmSize": "70.1 KiB (71782 bytes)",
+      "wasmDataFee": "0.000117 ETH (originally 0.000098 ETH with 20% bump)",
+      "status": {
+        "deployed": true,
+        "activated": true,
+        "cached": true,
+        "verified": true,
+        "initialized": true
+      },
+      "deploymentSource": "backend/arbitrum-stylus-contracts/yield-calculator",
+      "deploymentDate": "2024-12-19",
+      "notes": "Yield Calculator contract successfully deployed, activated, cached, initialized, and verified. Supports deposits with any ERC20 token, APY-based yield calculation, and withdrawal with principal + accrued yield. Contract is cached in ArbOS for cheaper calls. Initialized with owner address 0x2514844F312c02Ae3C9d4fEb40db4eC8830b6844 and contract address 0x70f749501b44ea186550dfca4e9f87a5d120bb4d."
+    }
+  },
+  "deploymentInfo": {
+    "tool": "cargo-stylus",
+    "version": "0.6.3",
+    "rustToolchain": "1.80.0",
+    "stylusSdkVersion": "0.6.0",
+    "alloyVersion": "0.7.6"
+  }
+}
+
