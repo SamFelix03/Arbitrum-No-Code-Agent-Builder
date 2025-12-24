@@ -33,7 +33,6 @@ const getDefaultLabel = (type: string): string => {
   const labels: Record<string, string> = {
     transfer: "Transfer",
     swap: "Swap",
-    get_balance: "Get Balance",
     deploy_erc20: "Deploy ERC-20",
     deploy_erc721: "Deploy ERC-721",
     create_dao: "Create DAO",
@@ -49,7 +48,6 @@ const getDefaultDescription = (type: string): string => {
   const descriptions: Record<string, string> = {
     transfer: "Transfer tokens or assets",
     swap: "Swap tokens",
-    get_balance: "Get wallet balance",
     deploy_erc20: "Deploy ERC-20 token",
     deploy_erc721: "Deploy ERC-721 NFT",
     create_dao: "Create a new DAO",
