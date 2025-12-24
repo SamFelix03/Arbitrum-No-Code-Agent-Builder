@@ -39,11 +39,12 @@ Getting started with Arbitrum No-Code Agent Builder is simple! Follow these step
 2. **Get Started** with just a Google sign in.
 3. **Create an Agent Wallet** or Import your own wallet from private key (ensure you have ETH on Arbitrum Sepolia).
    
-   <img width="1470" height="913" alt="Screenshot 2025-11-05 at 3 55 35 PM" src="https://github.com/user-attachments/assets/6949d8b9-380b-468c-8be4-6c13df0430a0" />
+   <img width="1470" height="854" alt="Screenshot 2025-12-24 at 2 58 42 PM" src="https://github.com/user-attachments/assets/18291c6d-354e-4727-a02d-23cf2036529b" />
 
 4. **Create Your First Agent** by just drag-dropping the tools you need!
    
-   <img width="1470" height="919" alt="Screenshot 2025-11-05 at 3 57 10 PM" src="https://github.com/user-attachments/assets/b402548a-9509-4e36-8a50-3e168616744f" />
+   <img width="1277" height="776" alt="Screenshot 2025-12-24 at 3 00 58 PM" src="https://github.com/user-attachments/assets/22fb9b7a-c8bf-4b82-baff-1d11ba9a2787" />
+
 
 5. **You Can Also AI Generate Your Agent!** just ask our AI to generate your agent with the right tools.
    
@@ -51,7 +52,8 @@ Getting started with Arbitrum No-Code Agent Builder is simple! Follow these step
 
 6. **Save your agent**.
 
-   <img width="1470" height="919" alt="Screenshot 2025-11-05 at 3 57 43 PM" src="https://github.com/user-attachments/assets/f877450d-9bd4-428b-8cbe-f35af87d4752" />
+   <img width="1277" height="776" alt="Screenshot 2025-12-24 at 3 05 05 PM" src="https://github.com/user-attachments/assets/820572e2-8d86-44ab-aa05-ec5215093d2d" />
+
 
 7. **Interact with it** in the UI or with curl requests by using your api key.
    
