@@ -8,8 +8,8 @@ The platform supports 10 blockchain tools including **token transfers, swaps, to
 
 ## Resources
 
-* **Pitch Deck** : [View Here](https://www.canva.com/design/DAG31cRK5wY/FolpicleXo_Cw4IrpTAKAQ/view?utm_content=DAG31cRK5wY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h90251dbeda#1)
-* **Demo Video** : [View Here](https://youtu.be/jbIAx5w-S90)
+* **Pitch Deck** : coming soon
+* **Demo Video** : coming soon
 * **Live Demo** : [View Here](https://stylus-agent-builder.vercel.app)
   
 ### Deployed Tool Contracts
@@ -18,14 +18,14 @@ All smart contracts are deployed on the **Arbitrum Sepolia testnet** using **Arb
 
 | Contract | Address | Explorer Link | Contract Code | Test Script |
 |----------|---------|---------------|---------------|-------------|
-| **TokenFactory** | `0xed088fd93517b0d0c3a3e4d2e2c419fb58570556` | [View on Explorer](https://sepolia.arbiscan.io/address/0xed088fd93517b0d0c3a3e4d2e2c419fb58570556) | [token-factory/src/lib.rs](arbitrum-stylus-contracts/token-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/token-factory/test.js) |
-| **ERC-20 Token** | `0x473200e631dc83fdf6a8c48eb9e44414a90cec50` | [View on Explorer](https://sepolia.arbiscan.io/address/0x473200e631dc83fdf6a8c48eb9e44414a90cec50) | [erc20-token/src/lib.rs](arbitrum-stylus-contracts/erc20-token/src/lib.rs) | [test.js](arbitrum-stylus-contracts/erc20-token/test.js) |
-| **NFTFactory** | `0xbeaf33e277499dbb7982061d261c6c286494855e` | [View on Explorer](https://sepolia.arbiscan.io/address/0xbeaf33e277499dbb7982061d261c6c286494855e) | [nft-factory/src/lib.rs](arbitrum-stylus-contracts/nft-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/nft-factory/test.js) |
-| **ERC-721 NFT** | `0x74e3bace8102f7d2bb5741ac301e6b062d5224b9` | [View on Explorer](https://sepolia.arbiscan.io/address/0x74e3bace8102f7d2bb5741ac301e6b062d5224b9) | [erc721-nft/src/lib.rs](arbitrum-stylus-contracts/erc721-nft/src/lib.rs) | [test.js](arbitrum-stylus-contracts/erc721-nft/test.js) |
-| **DAOFactory** | `0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46` | [View on Explorer](https://sepolia.arbiscan.io/address/0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46) | [dao-factory/src/lib.rs](arbitrum-stylus-contracts/dao-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/dao-factory/test.js) |
-| **DAO** | `0x95d7bc3f2f8172298c2487dfeca23d86b09572f5` | [View on Explorer](https://sepolia.arbiscan.io/address/0x95d7bc3f2f8172298c2487dfeca23d86b09572f5) | [dao/src/lib.rs](arbitrum-stylus-contracts/dao/src/lib.rs) | [test.js](arbitrum-stylus-contracts/dao/test.js) |
-| **Airdrop** | `0x6239a115e23a11033930c1892eb6b67649c12f18` | [View on Explorer](https://sepolia.arbiscan.io/address/0x6239a115e23a11033930c1892eb6b67649c12f18) | [airdrop/src/lib.rs](arbitrum-stylus-contracts/airdrop/src/lib.rs) | [test.js](arbitrum-stylus-contracts/airdrop/test.js) |
-| **YieldCalculator** | `0x70f749501b44ea186550dfca4e9f87a5d120bb4d` | [View on Explorer](https://sepolia.arbiscan.io/address/0x70f749501b44ea186550dfca4e9f87a5d120bb4d) | [yield-calculator/src/lib.rs](arbitrum-stylus-contracts/yield-calculator/src/lib.rs) | [test.js](arbitrum-stylus-contracts/yield-calculator/test.js) |
+| **TokenFactory** | `0xed088fd93517b0d0c3a3e4d2e2c419fb58570556` | [View on Explorer](https://sepolia.arbiscan.io/address/0xed088fd93517b0d0c3a3e4d2e2c419fb58570556) | [View code](arbitrum-stylus-contracts/token-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/token-factory/test.js) |
+| **ERC-20 Token** | `0x473200e631dc83fdf6a8c48eb9e44414a90cec50` | [View on Explorer](https://sepolia.arbiscan.io/address/0x473200e631dc83fdf6a8c48eb9e44414a90cec50) | [View Code](arbitrum-stylus-contracts/erc20-token/src/lib.rs) | [test.js](arbitrum-stylus-contracts/erc20-token/test.js) |
+| **NFTFactory** | `0xbeaf33e277499dbb7982061d261c6c286494855e` | [View on Explorer](https://sepolia.arbiscan.io/address/0xbeaf33e277499dbb7982061d261c6c286494855e) | [View Code](arbitrum-stylus-contracts/nft-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/nft-factory/test.js) |
+| **ERC-721 NFT** | `0x74e3bace8102f7d2bb5741ac301e6b062d5224b9` | [View on Explorer](https://sepolia.arbiscan.io/address/0x74e3bace8102f7d2bb5741ac301e6b062d5224b9) | [View Code](arbitrum-stylus-contracts/erc721-nft/src/lib.rs) | [test.js](arbitrum-stylus-contracts/erc721-nft/test.js) |
+| **DAOFactory** | `0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46` | [View on Explorer](https://sepolia.arbiscan.io/address/0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46) | [View Code](arbitrum-stylus-contracts/dao-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/dao-factory/test.js) |
+| **DAO** | `0x95d7bc3f2f8172298c2487dfeca23d86b09572f5` | [View on Explorer](https://sepolia.arbiscan.io/address/0x95d7bc3f2f8172298c2487dfeca23d86b09572f5) | [View Code](arbitrum-stylus-contracts/dao/src/lib.rs) | [test.js](arbitrum-stylus-contracts/dao/test.js) |
+| **Airdrop** | `0x6239a115e23a11033930c1892eb6b67649c12f18` | [View on Explorer](https://sepolia.arbiscan.io/address/0x6239a115e23a11033930c1892eb6b67649c12f18) | [View Code](arbitrum-stylus-contracts/airdrop/src/lib.rs) | [test.js](arbitrum-stylus-contracts/airdrop/test.js) |
+| **YieldCalculator** | `0x70f749501b44ea186550dfca4e9f87a5d120bb4d` | [View on Explorer](https://sepolia.arbiscan.io/address/0x70f749501b44ea186550dfca4e9f87a5d120bb4d) | [View Code](arbitrum-stylus-contracts/yield-calculator/src/lib.rs) | [test.js](arbitrum-stylus-contracts/yield-calculator/test.js) |
 
 **Note:** All contracts are implemented in Rust using the Arbitrum Stylus SDK (v0.6.0) and compiled to WebAssembly. They are cached in ArbOS for cheaper execution costs. See [deployment-config.json](arbitrum-stylus-contracts/deployment-config.json) for complete deployment details.
 
