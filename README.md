@@ -18,16 +18,16 @@ All smart contracts are deployed on the **Arbitrum Sepolia testnet** using **Arb
 
 | Contract | Address | Explorer Link | Contract Code | Test Script |
 |----------|---------|---------------|---------------|-------------|
-| **TokenFactory** | `0xed088fd93517b0d0c3a3e4d2e2c419fb58570556` | [View on Explorer](https://sepolia.arbiscan.io/address/0xed088fd93517b0d0c3a3e4d2e2c419fb58570556) | [token-factory/src/lib.rs](backend/arbitrum-stylus-contracts/token-factory/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/token-factory/test.js) |
-| **ERC-20 Token** | `0x473200e631dc83fdf6a8c48eb9e44414a90cec50` | [View on Explorer](https://sepolia.arbiscan.io/address/0x473200e631dc83fdf6a8c48eb9e44414a90cec50) | [erc20-token/src/lib.rs](backend/arbitrum-stylus-contracts/erc20-token/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/erc20-token/test.js) |
-| **NFTFactory** | `0xbeaf33e277499dbb7982061d261c6c286494855e` | [View on Explorer](https://sepolia.arbiscan.io/address/0xbeaf33e277499dbb7982061d261c6c286494855e) | [nft-factory/src/lib.rs](backend/arbitrum-stylus-contracts/nft-factory/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/nft-factory/test.js) |
-| **ERC-721 NFT** | `0x74e3bace8102f7d2bb5741ac301e6b062d5224b9` | [View on Explorer](https://sepolia.arbiscan.io/address/0x74e3bace8102f7d2bb5741ac301e6b062d5224b9) | [erc721-nft/src/lib.rs](backend/arbitrum-stylus-contracts/erc721-nft/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/erc721-nft/test.js) |
-| **DAOFactory** | `0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46` | [View on Explorer](https://sepolia.arbiscan.io/address/0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46) | [dao-factory/src/lib.rs](backend/arbitrum-stylus-contracts/dao-factory/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/dao-factory/test.js) |
-| **DAO** | `0x95d7bc3f2f8172298c2487dfeca23d86b09572f5` | [View on Explorer](https://sepolia.arbiscan.io/address/0x95d7bc3f2f8172298c2487dfeca23d86b09572f5) | [dao/src/lib.rs](backend/arbitrum-stylus-contracts/dao/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/dao/test.js) |
-| **Airdrop** | `0x6239a115e23a11033930c1892eb6b67649c12f18` | [View on Explorer](https://sepolia.arbiscan.io/address/0x6239a115e23a11033930c1892eb6b67649c12f18) | [airdrop/src/lib.rs](backend/arbitrum-stylus-contracts/airdrop/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/airdrop/test.js) |
-| **YieldCalculator** | `0x70f749501b44ea186550dfca4e9f87a5d120bb4d` | [View on Explorer](https://sepolia.arbiscan.io/address/0x70f749501b44ea186550dfca4e9f87a5d120bb4d) | [yield-calculator/src/lib.rs](backend/arbitrum-stylus-contracts/yield-calculator/src/lib.rs) | [test.js](backend/arbitrum-stylus-contracts/yield-calculator/test.js) |
+| **TokenFactory** | `0xed088fd93517b0d0c3a3e4d2e2c419fb58570556` | [View on Explorer](https://sepolia.arbiscan.io/address/0xed088fd93517b0d0c3a3e4d2e2c419fb58570556) | [token-factory/src/lib.rs](arbitrum-stylus-contracts/token-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/token-factory/test.js) |
+| **ERC-20 Token** | `0x473200e631dc83fdf6a8c48eb9e44414a90cec50` | [View on Explorer](https://sepolia.arbiscan.io/address/0x473200e631dc83fdf6a8c48eb9e44414a90cec50) | [erc20-token/src/lib.rs](arbitrum-stylus-contracts/erc20-token/src/lib.rs) | [test.js](arbitrum-stylus-contracts/erc20-token/test.js) |
+| **NFTFactory** | `0xbeaf33e277499dbb7982061d261c6c286494855e` | [View on Explorer](https://sepolia.arbiscan.io/address/0xbeaf33e277499dbb7982061d261c6c286494855e) | [nft-factory/src/lib.rs](arbitrum-stylus-contracts/nft-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/nft-factory/test.js) |
+| **ERC-721 NFT** | `0x74e3bace8102f7d2bb5741ac301e6b062d5224b9` | [View on Explorer](https://sepolia.arbiscan.io/address/0x74e3bace8102f7d2bb5741ac301e6b062d5224b9) | [erc721-nft/src/lib.rs](arbitrum-stylus-contracts/erc721-nft/src/lib.rs) | [test.js](arbitrum-stylus-contracts/erc721-nft/test.js) |
+| **DAOFactory** | `0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46` | [View on Explorer](https://sepolia.arbiscan.io/address/0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46) | [dao-factory/src/lib.rs](arbitrum-stylus-contracts/dao-factory/src/lib.rs) | [test.js](arbitrum-stylus-contracts/dao-factory/test.js) |
+| **DAO** | `0x95d7bc3f2f8172298c2487dfeca23d86b09572f5` | [View on Explorer](https://sepolia.arbiscan.io/address/0x95d7bc3f2f8172298c2487dfeca23d86b09572f5) | [dao/src/lib.rs](arbitrum-stylus-contracts/dao/src/lib.rs) | [test.js](arbitrum-stylus-contracts/dao/test.js) |
+| **Airdrop** | `0x6239a115e23a11033930c1892eb6b67649c12f18` | [View on Explorer](https://sepolia.arbiscan.io/address/0x6239a115e23a11033930c1892eb6b67649c12f18) | [airdrop/src/lib.rs](arbitrum-stylus-contracts/airdrop/src/lib.rs) | [test.js](arbitrum-stylus-contracts/airdrop/test.js) |
+| **YieldCalculator** | `0x70f749501b44ea186550dfca4e9f87a5d120bb4d` | [View on Explorer](https://sepolia.arbiscan.io/address/0x70f749501b44ea186550dfca4e9f87a5d120bb4d) | [yield-calculator/src/lib.rs](arbitrum-stylus-contracts/yield-calculator/src/lib.rs) | [test.js](arbitrum-stylus-contracts/yield-calculator/test.js) |
 
-**Note:** All contracts are implemented in Rust using the Arbitrum Stylus SDK (v0.6.0) and compiled to WebAssembly. They are cached in ArbOS for cheaper execution costs. See [deployment-config.json](backend/arbitrum-stylus-contracts/deployment-config.json) for complete deployment details.
+**Note:** All contracts are implemented in Rust using the Arbitrum Stylus SDK (v0.6.0) and compiled to WebAssembly. They are cached in ArbOS for cheaper execution costs. See [deployment-config.json](arbitrum-stylus-contracts/deployment-config.json) for complete deployment details.
 
 ---
 
@@ -329,7 +329,7 @@ Transfers native ETH tokens or ERC-20 tokens from one wallet to another on Arbit
 - No smart contract deployment needed (uses existing token contracts)
 
 **Example:**
-- See test script: [erc20-token/test.js](backend/arbitrum-stylus-contracts/erc20-token/test.js) for transfer examples
+- See test script: [erc20-token/test.js](arbitrum-stylus-contracts/erc20-token/test.js) for transfer examples
 
 ---
 
@@ -523,9 +523,9 @@ sequenceDiagram
 ```
 
 **Implementation:**
-- **Contract Code:** [erc20-token/src/lib.rs](backend/arbitrum-stylus-contracts/erc20-token/src/lib.rs)
-- **Factory Code:** [token-factory/src/lib.rs](backend/arbitrum-stylus-contracts/token-factory/src/lib.rs)
-- **Test Script:** [erc20-token/test.js](backend/arbitrum-stylus-contracts/erc20-token/test.js) - All 14 tests passing ✅
+- **Contract Code:** [erc20-token/src/lib.rs](arbitrum-stylus-contracts/erc20-token/src/lib.rs)
+- **Factory Code:** [token-factory/src/lib.rs](arbitrum-stylus-contracts/token-factory/src/lib.rs)
+- **Test Script:** [erc20-token/test.js](arbitrum-stylus-contracts/erc20-token/test.js) - All 14 tests passing ✅
 - **Deployed Token:** `0x473200e631dc83fdf6a8c48eb9e44414a90cec50`
 
 ---
@@ -629,9 +629,9 @@ sequenceDiagram
 ```
 
 **Implementation:**
-- **Contract Code:** [erc721-nft/src/lib.rs](backend/arbitrum-stylus-contracts/erc721-nft/src/lib.rs)
-- **Factory Code:** [nft-factory/src/lib.rs](backend/arbitrum-stylus-contracts/nft-factory/src/lib.rs)
-- **Test Script:** [erc721-nft/test.js](backend/arbitrum-stylus-contracts/erc721-nft/test.js) - All 6 tests passing ✅
+- **Contract Code:** [erc721-nft/src/lib.rs](arbitrum-stylus-contracts/erc721-nft/src/lib.rs)
+- **Factory Code:** [nft-factory/src/lib.rs](arbitrum-stylus-contracts/nft-factory/src/lib.rs)
+- **Test Script:** [erc721-nft/test.js](arbitrum-stylus-contracts/erc721-nft/test.js) - All 6 tests passing ✅
 - **Deployed NFT:** `0x74e3bace8102f7d2bb5741ac301e6b062d5224b9`
 
 ---
@@ -718,9 +718,9 @@ sequenceDiagram
 ```
 
 **Implementation:**
-- **Contract Code:** [dao/src/lib.rs](backend/arbitrum-stylus-contracts/dao/src/lib.rs)
-- **Factory Code:** [dao-factory/src/lib.rs](backend/arbitrum-stylus-contracts/dao-factory/src/lib.rs)
-- **Test Script:** [dao/test.js](backend/arbitrum-stylus-contracts/dao/test.js) - All 12 tests passing ✅
+- **Contract Code:** [dao/src/lib.rs](arbitrum-stylus-contracts/dao/src/lib.rs)
+- **Factory Code:** [dao-factory/src/lib.rs](arbitrum-stylus-contracts/dao-factory/src/lib.rs)
+- **Test Script:** [dao/test.js](arbitrum-stylus-contracts/dao/test.js) - All 12 tests passing ✅
 - **Deployed DAO:** `0x95d7bc3f2f8172298c2487dfeca23d86b09572f5`
 
 ---
@@ -809,8 +809,8 @@ sequenceDiagram
 ```
 
 **Implementation:**
-- **Contract Code:** [airdrop/src/lib.rs](backend/arbitrum-stylus-contracts/airdrop/src/lib.rs)
-- **Test Script:** [airdrop/test.js](backend/arbitrum-stylus-contracts/airdrop/test.js) - All 5 tests passing ✅
+- **Contract Code:** [airdrop/src/lib.rs](arbitrum-stylus-contracts/airdrop/src/lib.rs)
+- **Test Script:** [airdrop/test.js](arbitrum-stylus-contracts/airdrop/test.js) - All 5 tests passing ✅
 - **Deployed Contract:** `0x6239a115e23a11033930c1892eb6b67649c12f18`
 
 ---
@@ -944,8 +944,8 @@ sequenceDiagram
 ```
 
 **Implementation:**
-- **Contract Code:** [yield-calculator/src/lib.rs](backend/arbitrum-stylus-contracts/yield-calculator/src/lib.rs)
-- **Test Script:** [yield-calculator/test.js](backend/arbitrum-stylus-contracts/yield-calculator/test.js) - All 14 tests passing ✅
+- **Contract Code:** [yield-calculator/src/lib.rs](arbitrum-stylus-contracts/yield-calculator/src/lib.rs)
+- **Test Script:** [yield-calculator/test.js](arbitrum-stylus-contracts/yield-calculator/test.js) - All 14 tests passing ✅
 - **Deployed Contract:** `0x70f749501b44ea186550dfca4e9f87a5d120bb4d`
 
 ---
@@ -1010,13 +1010,13 @@ All contracts are implemented in **Rust using Arbitrum Stylus SDK v0.6.0** and c
 
 ### TokenFactory & ERC-20 Token
 
-**Location:** [`backend/arbitrum-stylus-contracts/`](backend/arbitrum-stylus-contracts/)
+**Location:** [`arbitrum-stylus-contracts/`](arbitrum-stylus-contracts/)
 
 #### TokenFactory Contract (Registry Pattern)
 
 **Address:** `0xed088fd93517b0d0c3a3e4d2e2c419fb58570556`
 
-**Implementation:** [token-factory/src/lib.rs](backend/arbitrum-stylus-contracts/token-factory/src/lib.rs)
+**Implementation:** [token-factory/src/lib.rs](arbitrum-stylus-contracts/token-factory/src/lib.rs)
 
 **Key Functions:**
 - `registerToken(address tokenAddress, string name, string symbol, uint256 initialSupply)` - Registers externally deployed token
@@ -1033,13 +1033,13 @@ All contracts are implemented in **Rust using Arbitrum Stylus SDK v0.6.0** and c
 **Events:**
 - `TokenCreated(address indexed tokenAddress, address indexed creator, string name, string symbol, uint256 initialSupply, uint256 timestamp)`
 
-**Test Script:** [token-factory/test.js](backend/arbitrum-stylus-contracts/token-factory/test.js) - ✅ 7/7 tests passing
+**Test Script:** [token-factory/test.js](arbitrum-stylus-contracts/token-factory/test.js) - ✅ 7/7 tests passing
 
 #### ERC-20 Token Contract
 
 **Address:** `0x473200e631dc83fdf6a8c48eb9e44414a90cec50`
 
-**Implementation:** [erc20-token/src/lib.rs](backend/arbitrum-stylus-contracts/erc20-token/src/lib.rs)
+**Implementation:** [erc20-token/src/lib.rs](arbitrum-stylus-contracts/erc20-token/src/lib.rs)
 
 **Features:**
 - ERC-20 standard implementation
@@ -1055,19 +1055,19 @@ All contracts are implemented in **Rust using Arbitrum Stylus SDK v0.6.0** and c
 - `pause()` / `unpause()` - Owner can pause transfers
 - `transfer()` / `transferFrom()` / `approve()` - Standard ERC-20 functions
 
-**Test Script:** [erc20-token/test.js](backend/arbitrum-stylus-contracts/erc20-token/test.js) - ✅ 14/14 tests passing
+**Test Script:** [erc20-token/test.js](arbitrum-stylus-contracts/erc20-token/test.js) - ✅ 14/14 tests passing
 
 ---
 
 ### NFTFactory & ERC-721 NFT
 
-**Location:** [`backend/arbitrum-stylus-contracts/`](backend/arbitrum-stylus-contracts/)
+**Location:** [`arbitrum-stylus-contracts/`](arbitrum-stylus-contracts/)
 
 #### NFTFactory Contract (Registry Pattern)
 
 **Address:** `0xbeaf33e277499dbb7982061d261c6c286494855e`
 
-**Implementation:** [nft-factory/src/lib.rs](backend/arbitrum-stylus-contracts/nft-factory/src/lib.rs)
+**Implementation:** [nft-factory/src/lib.rs](arbitrum-stylus-contracts/nft-factory/src/lib.rs)
 
 **Key Functions:**
 - `registerCollection(address collectionAddress, string name, string symbol, string baseURI)` - Registers externally deployed collection
@@ -1084,13 +1084,13 @@ All contracts are implemented in **Rust using Arbitrum Stylus SDK v0.6.0** and c
 **Events:**
 - `CollectionCreated(address indexed collectionAddress, address indexed creator, string name, string symbol, string baseURI, uint256 timestamp)`
 
-**Test Script:** [nft-factory/test.js](backend/arbitrum-stylus-contracts/nft-factory/test.js) - ✅ 7/7 tests passing
+**Test Script:** [nft-factory/test.js](arbitrum-stylus-contracts/nft-factory/test.js) - ✅ 7/7 tests passing
 
 #### ERC-721 NFT Contract
 
 **Address:** `0x74e3bace8102f7d2bb5741ac301e6b062d5224b9`
 
-**Implementation:** [erc721-nft/src/lib.rs](backend/arbitrum-stylus-contracts/erc721-nft/src/lib.rs)
+**Implementation:** [erc721-nft/src/lib.rs](arbitrum-stylus-contracts/erc721-nft/src/lib.rs)
 
 **Features:**
 - ERC-721 standard implementation
@@ -1114,19 +1114,19 @@ All contracts are implemented in **Rust using Arbitrum Stylus SDK v0.6.0** and c
 - Auto-increments with each mint
 - `totalSupply()` returns count of minted tokens
 
-**Test Script:** [erc721-nft/test.js](backend/arbitrum-stylus-contracts/erc721-nft/test.js) - ✅ 6/6 tests passing
+**Test Script:** [erc721-nft/test.js](arbitrum-stylus-contracts/erc721-nft/test.js) - ✅ 6/6 tests passing
 
 ---
 
 ### DAOFactory & DAO
 
-**Location:** [`backend/arbitrum-stylus-contracts/`](backend/arbitrum-stylus-contracts/)
+**Location:** [`arbitrum-stylus-contracts/`](arbitrum-stylus-contracts/)
 
 #### DAOFactory Contract (Registry Pattern)
 
 **Address:** `0xf4242a5bebdd12abc7d01ab9fd3f7473b3295d46`
 
-**Implementation:** [dao-factory/src/lib.rs](backend/arbitrum-stylus-contracts/dao-factory/src/lib.rs)
+**Implementation:** [dao-factory/src/lib.rs](arbitrum-stylus-contracts/dao-factory/src/lib.rs)
 
 **Key Functions:**
 - `registerDao(address daoAddress, string name, uint256 votingPeriod, uint256 quorumPercentage)` - Registers externally deployed DAO
@@ -1143,13 +1143,13 @@ All contracts are implemented in **Rust using Arbitrum Stylus SDK v0.6.0** and c
 **Events:**
 - `DAOCreated(address indexed daoAddress, string name, address indexed creator, uint256 votingPeriod, uint256 quorumPercentage, uint256 timestamp)`
 
-**Test Script:** [dao-factory/test.js](backend/arbitrum-stylus-contracts/dao-factory/test.js) - ✅ 7/7 tests passing
+**Test Script:** [dao-factory/test.js](arbitrum-stylus-contracts/dao-factory/test.js) - ✅ 7/7 tests passing
 
 #### DAO Contract
 
 **Address:** `0x95d7bc3f2f8172298c2487dfeca23d86b09572f5`
 
-**Implementation:** [dao/src/lib.rs](backend/arbitrum-stylus-contracts/dao/src/lib.rs)
+**Implementation:** [dao/src/lib.rs](arbitrum-stylus-contracts/dao/src/lib.rs)
 
 **Features:**
 - Member management with voting power
@@ -1201,17 +1201,17 @@ struct Proposal {
 - `VoteCast(uint256 indexed proposalId, address indexed voter, bool support, uint256 weight)`
 - `ProposalExecuted(uint256 indexed proposalId, bool passed)`
 
-**Test Script:** [dao/test.js](backend/arbitrum-stylus-contracts/dao/test.js) - ✅ 12/12 tests passing
+**Test Script:** [dao/test.js](arbitrum-stylus-contracts/dao/test.js) - ✅ 12/12 tests passing
 
 ---
 
 ### Airdrop Contract
 
-**Location:** [`backend/arbitrum-stylus-contracts/airdrop/`](backend/arbitrum-stylus-contracts/airdrop/)
+**Location:** [`arbitrum-stylus-contracts/airdrop/`](arbitrum-stylus-contracts/airdrop/)
 
 **Address:** `0x6239a115e23a11033930c1892eb6b67649c12f18`
 
-**Implementation:** [airdrop/src/lib.rs](backend/arbitrum-stylus-contracts/airdrop/src/lib.rs)
+**Implementation:** [airdrop/src/lib.rs](arbitrum-stylus-contracts/airdrop/src/lib.rs)
 
 **Features:**
 - Gas-efficient batch transfers
@@ -1239,17 +1239,17 @@ struct Proposal {
 - Validates all inputs
 - Reverts on transfer failures
 
-**Test Script:** [airdrop/test.js](backend/arbitrum-stylus-contracts/airdrop/test.js) - ✅ 5/5 tests passing
+**Test Script:** [airdrop/test.js](arbitrum-stylus-contracts/airdrop/test.js) - ✅ 5/5 tests passing
 
 ---
 
 ### YieldCalculator Contract
 
-**Location:** [`backend/arbitrum-stylus-contracts/yield-calculator/`](backend/arbitrum-stylus-contracts/yield-calculator/)
+**Location:** [`arbitrum-stylus-contracts/yield-calculator/`](arbitrum-stylus-contracts/yield-calculator/)
 
 **Address:** `0x70f749501b44ea186550dfca4e9f87a5d120bb4d`
 
-**Implementation:** [yield-calculator/src/lib.rs](backend/arbitrum-stylus-contracts/yield-calculator/src/lib.rs)
+**Implementation:** [yield-calculator/src/lib.rs](arbitrum-stylus-contracts/yield-calculator/src/lib.rs)
 
 **Features:**
 - Multi-token support (any ERC-20)
@@ -1299,7 +1299,7 @@ struct Deposit {
 - `YieldCalculated(address indexed depositor, uint256 depositId, uint256 yieldAmount)`
 - `Withdrawn(address indexed to, uint256 depositId, uint256 amount)`
 
-**Test Script:** [yield-calculator/test.js](backend/arbitrum-stylus-contracts/yield-calculator/test.js) - ✅ 14/14 tests passing
+**Test Script:** [yield-calculator/test.js](arbitrum-stylus-contracts/yield-calculator/test.js) - ✅ 14/14 tests passing
 
 ---
 
@@ -1383,7 +1383,7 @@ All contracts are implemented using **Arbitrum Stylus**, which allows writing sm
 
 ### Deployment Details
 
-All contracts are deployed on **Arbitrum Sepolia** (Chain ID: 421614) using `cargo-stylus` CLI tool. See [deployment-config.json](backend/arbitrum-stylus-contracts/deployment-config.json) for complete deployment information including:
+All contracts are deployed on **Arbitrum Sepolia** (Chain ID: 421614) using `cargo-stylus` CLI tool. See [deployment-config.json](arbitrum-stylus-contracts/deployment-config.json) for complete deployment information including:
 
 - Contract addresses
 - Deployment transactions
@@ -1396,14 +1396,14 @@ All contracts are deployed on **Arbitrum Sepolia** (Chain ID: 421614) using `car
 
 Each contract includes comprehensive test scripts written in JavaScript using ethers.js:
 
-- **Airdrop:** [airdrop/test.js](backend/arbitrum-stylus-contracts/airdrop/test.js) - 5/5 tests ✅
-- **DAO:** [dao/test.js](backend/arbitrum-stylus-contracts/dao/test.js) - 12/12 tests ✅
-- **DAO Factory:** [dao-factory/test.js](backend/arbitrum-stylus-contracts/dao-factory/test.js) - 7/7 tests ✅
-- **ERC-20 Token:** [erc20-token/test.js](backend/arbitrum-stylus-contracts/erc20-token/test.js) - 14/14 tests ✅
-- **Token Factory:** [token-factory/test.js](backend/arbitrum-stylus-contracts/token-factory/test.js) - 7/7 tests ✅
-- **ERC-721 NFT:** [erc721-nft/test.js](backend/arbitrum-stylus-contracts/erc721-nft/test.js) - 6/6 tests ✅
-- **NFT Factory:** [nft-factory/test.js](backend/arbitrum-stylus-contracts/nft-factory/test.js) - 7/7 tests ✅
-- **Yield Calculator:** [yield-calculator/test.js](backend/arbitrum-stylus-contracts/yield-calculator/test.js) - 14/14 tests ✅
+- **Airdrop:** [airdrop/test.js](arbitrum-stylus-contracts/airdrop/test.js) - 5/5 tests ✅
+- **DAO:** [dao/test.js](arbitrum-stylus-contracts/dao/test.js) - 12/12 tests ✅
+- **DAO Factory:** [dao-factory/test.js](arbitrum-stylus-contracts/dao-factory/test.js) - 7/7 tests ✅
+- **ERC-20 Token:** [erc20-token/test.js](arbitrum-stylus-contracts/erc20-token/test.js) - 14/14 tests ✅
+- **Token Factory:** [token-factory/test.js](arbitrum-stylus-contracts/token-factory/test.js) - 7/7 tests ✅
+- **ERC-721 NFT:** [erc721-nft/test.js](arbitrum-stylus-contracts/erc721-nft/test.js) - 6/6 tests ✅
+- **NFT Factory:** [nft-factory/test.js](arbitrum-stylus-contracts/nft-factory/test.js) - 7/7 tests ✅
+- **Yield Calculator:** [yield-calculator/test.js](arbitrum-stylus-contracts/yield-calculator/test.js) - 14/14 tests ✅
 
 **Total: 72/72 tests passing (100%)**
 
