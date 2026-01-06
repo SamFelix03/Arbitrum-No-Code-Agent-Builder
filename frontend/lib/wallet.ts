@@ -112,8 +112,8 @@ export async function getTokenBalances(address: string): Promise<{
     const formattedBalance = ethers.formatEther(balance)
     const numericBalance = parseFloat(formattedBalance)
 
-    // Format to 2 decimal places
-    const ethBalance = numericBalance.toFixed(2)
+    // Format to 5 decimal places
+    const ethBalance = numericBalance.toFixed(5)
 
     return {
       eth: ethBalance,
@@ -122,7 +122,7 @@ export async function getTokenBalances(address: string): Promise<{
     console.error('Error fetching ETH balance:', error)
     // Return zero balance on error
     return {
-      eth: '0.00',
+      eth: '0.00000',
     }
   }
 }

@@ -205,7 +205,7 @@ export function AgentWalletModal({ open, onOpenChange }: AgentWalletModalProps) 
   }
 
   // Get balance for display in button
-  const displayBalance = tokenBalances?.eth || "0.00"
+  const displayBalance = tokenBalances?.eth || "0.00000"
   const hasWallet = !!dbUser?.wallet_address
 
   return (
@@ -278,7 +278,7 @@ export function AgentWalletModal({ open, onOpenChange }: AgentWalletModalProps) 
                   </div>
                   <div className="flex items-baseline gap-2">
                     <div className="text-4xl font-bold leading-none">
-                      {tokenBalances?.eth || "0.00"}
+                      {tokenBalances?.eth || "0.00000"}
                     </div>
                     <div className="text-sm text-muted-foreground font-medium">
                       ETH
