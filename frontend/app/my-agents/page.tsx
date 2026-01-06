@@ -319,7 +319,7 @@ export default function MyAgents() {
               <label className="text-sm font-semibold">cURL Example</label>
               <div className="relative">
                 <pre className="p-4 bg-muted rounded-md border overflow-x-auto text-xs">
-                  <code>{`curl -X POST https://arbitrum-agent-builder.vercel.app/api/agent/chat \\
+                  <code>{`curl -X POST https://stylus-agent-builder.vercel.app/api/agent/chat \\
   -H "Content-Type: application/json" \\
   -d '{
     "api_key": "${selectedAgentForExport?.api_key || 'YOUR_API_KEY'}",
@@ -331,7 +331,7 @@ export default function MyAgents() {
                   size="sm"
                   className="absolute top-2 right-2"
                   onClick={() => {
-                    const curlCommand = `curl -X POST https://arbitrum-agent-builder.vercel.app/api/agent/chat \\
+                    const curlCommand = `curl -X POST https://stylus-agent-builder.vercel.app/api/agent/chat \\
   -H "Content-Type: application/json" \\
   -d '{
     "api_key": "${selectedAgentForExport?.api_key || 'YOUR_API_KEY'}",
@@ -366,7 +366,7 @@ export default function MyAgents() {
               <label className="text-sm font-semibold">JavaScript Example</label>
               <div className="relative">
                 <pre className="p-4 bg-muted rounded-md border overflow-x-auto text-xs">
-                  <code>{`const response = await fetch('https://arbitrum-agent-builder.vercel.app/api/agent/chat', {
+                  <code>{`const response = await fetch('https://stylus-agent-builder.vercel.app/api/agent/chat', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -385,7 +385,7 @@ console.log(data);`}</code>
                   size="sm"
                   className="absolute top-2 right-2"
                   onClick={() => {
-                    const jsCode = `const response = await fetch('https://arbitrum-agent-builder.vercel.app/api/agent/chat', {
+                    const jsCode = `const response = await fetch('https://stylus-agent-builder.vercel.app/api/agent/chat', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
