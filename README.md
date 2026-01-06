@@ -9,7 +9,7 @@ The platform supports 10 blockchain tools including **token transfers, swaps, to
 ## Resources
 
 * **Pitch Deck** : [View Here](https://www.canva.com/design/DAG31cRK5wY/nc5-qAG6CJzE_sFQ68UOvg/view?utm_content=DAG31cRK5wY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h75219efd38#1)
-* **Demo Video** : coming soon
+* **Demo Video** : [View Here](https://youtu.be/jbBK2bDAlaU)
 * **Live Demo** : [View Here](https://stylus-agent-builder.vercel.app)
   
 ### Deployed Tool Contracts
