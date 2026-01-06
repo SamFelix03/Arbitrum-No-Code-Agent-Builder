@@ -57,9 +57,9 @@ Getting started with Arbitrum No-Code Agent Builder is simple! Follow these step
 
 7. **Interact with it** in the UI or with curl requests by using your api key.
    
-   <img width="1470" height="918" alt="Screenshot 2025-11-05 at 7 11 58 PM" src="https://github.com/user-attachments/assets/bcba568e-381e-4f1b-bdf5-224b837d8b5b" />
+   <img width="1278" height="792" alt="Screenshot 2026-01-06 at 3 48 32 PM" src="https://github.com/user-attachments/assets/265f3293-f3a0-4fe8-9a2f-eefee4c5ce89" />
 
-   <img width="1385" height="483" alt="Screenshot 2025-11-05 at 4 00 37 PM" src="https://github.com/user-attachments/assets/6dc16a6d-cbf8-4baa-9028-ae1b2fdd14cc" />
+   <img width="2800" height="1050" alt="image" src="https://github.com/user-attachments/assets/34fcc239-f8db-4f52-8e71-1afda10e7f02" />
 
 That's it! You've created your first Arbitrum agent without any programming knowledge, as simple as that!
 
